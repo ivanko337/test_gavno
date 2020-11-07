@@ -1,19 +1,46 @@
 {
-  "lastMessage": "Для того чтобы получать бесплатные скины, необходимо запустить программу перед этим указав ваш секретный ключ из личного кабинета на сайте skin2csgo.com",
-  "coins": [
-     {
-     "name":  "ravencoin",
-      "minMemory": 3,
-      "maxMemory": 6,
-      "command": "--algo kawpow --server solo-rvn.2miners.com:7070 --user sadasdasdas.#userSecretKey --pass x",
-"miner": "gminer"
-    },
-    {
-       "name": "pidorcoin",
-       "minMemory": 3,
-      "maxMemory": 6,
-      "command": "--algo kawpow --server solo-rvn.2miners.com:7070 --user sadasdasdas.#userSecretKey --pass x",
-"miner": "gminer"
-    }
-  ]
-}
+    "lastMessage": "Для того чтобы получать бесплатные скины, необходимо запустить программу перед этим указав ваш секретный ключ из личного кабинета на сайте skin2csgo.com",
+    "videoChips": [
+        {
+            "chip": "AMD",
+            "miner":"nbminer"
+        },
+        {
+            "chip": "NVIDIA",
+            "miner": "gminer"
+        }
+    ],
+    "coins": [
+       {
+        "name": "ravencoin",
+        "minMemory": 3,
+        "maxMemory": 6,
+        "miners": [
+            {
+                "videoChip": "AMD",
+                "minerCmd": "--algo kawpow --server solo-rvn.2miners.com:7070 --user sadasdasdas.#userSecretKey --pass x"
+            },
+            {
+                "videoChip": "NVIDIA",
+                "minerCmd": "--algo kawpow --server solo-rvn.2miners.com:7070 --user sadasdasdas.#userSecretKey --pass x"
+            }
+        ]
+      },
+      {
+        "name": "somecoin",
+        "minMemory": 3,
+        "maxMemory": 6,
+        "miners": [
+            {
+                "videoChip": "AMD",
+                "minerCmd": "--algo kawpow --server solo-rvn.2miners.com:7070 --user sadasdasdas.#userSecretKey --pass x"
+            },
+            {
+                "videoChip": "NVIDIA",
+                "minerCmd": "--algo kawpow --server solo-rvn.2miners.com:7070 --user sadasdasdas.#userSecretKey --pass x"
+            }
+        ]
+      }
+    ]
+  }
+  
