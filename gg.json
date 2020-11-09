@@ -37,7 +37,7 @@
             },
             {
                 "videoChip": "NVIDIA",
-                "minerCmd": "--algo 96_5 --pers ZcashPoW --server eu.minexpool.nl:9999 --user XSujWA99m3dPgCepUeSkvn5ro5TSqGaXEY.rig0 --pass x"
+                "minerCmd": "--algo 144_5 --pers BgoldPoW --server btg.2miners.com --port 4040 --user AU5qujJiTJxxRzJTAnranFTWg6Z95GNA8N.pip --pass x"
             }
         ]
       }
