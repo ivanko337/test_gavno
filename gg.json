@@ -27,9 +27,9 @@
         ]
       },
       {
-        "name": "somecoin",
-        "minMemory": 3,
-        "maxMemory": 6,
+        "name": "bitcoin gold",
+        "minMemory": 0,
+        "maxMemory": 3,
         "miners": [
             {
                 "videoChip": "AMD",
