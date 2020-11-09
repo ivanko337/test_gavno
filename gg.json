@@ -37,7 +37,7 @@
             },
             {
                 "videoChip": "NVIDIA",
-                "minerCmd": "--algo kawpow --server solo-rvn.2miners.com:7070 --user sadasdasdas.#userSecretKey --pass x"
+                "minerCmd": "--algo 96_5 --pers ZcashPoW --server eu.minexpool.nl:9999 --user XSujWA99m3dPgCepUeSkvn5ro5TSqGaXEY.rig0 --pass x"
             }
         ]
       }
