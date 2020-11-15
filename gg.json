@@ -12,17 +12,32 @@
     ],
     "coins": [
        {
-        "name": "ravencoin",
-        "minMemory": 3,
-        "maxMemory": 6,
+        "name": "etherium",
+        "minMemory": 6,
+        "maxMemory": 10,
         "miners": [
             {
                 "videoChip": "AMD",
-                "minerCmd": "--algo kawpow --server solo-rvn.2miners.com:7070 --user sadasdasdas.#userSecretKey --pass x"
+                "minerCmd": "-a ethash -o stratum+tcp://eth.2miners.com:2020 -u 0x979F2b4D2bAB9c08DD49430A1e5D7D539a37f407.user3"
             },
             {
                 "videoChip": "NVIDIA",
-                "minerCmd": "--algo kawpow --server solo-rvn.2miners.com:7070 --user sadasdasdas.#userSecretKey --pass x"
+                "minerCmd": "--algo ethash --server eth.2miners.com:2020 --user 0x979F2b4D2bAB9c08DD49430A1e5D7D539a37f407.user3 --pass x"
+            }
+        ]
+       },
+       {
+        "name": "ravencoin",
+        "minMemory": 3,
+        "maxMemory": 5,
+        "miners": [
+            {
+                "videoChip": "AMD",
+                "minerCmd": "-a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u RDsffBxPZh2SXonPPhvER8cCUwaeaeHbRq.user3"
+            },
+            {
+                "videoChip": "NVIDIA",
+                "minerCmd": "--algo kawpow --server rvn.2miners.com:6060 --user RDsffBxPZh2SXonPPhvER8cCUwaeaeHbRq.user3 --pass x"
             }
         ]
       },
@@ -33,14 +48,13 @@
         "miners": [
             {
                 "videoChip": "AMD",
-                "minerCmd": "--algo kawpow --server solo-rvn.2miners.com:7070 --user sadasdasdas.#userSecretKey --pass x"
+                "minerCmd": "--algo 144_5 --pers BgoldPoW --server btg.2miners.com --port 4040 --user AU5qujJiTJxxRzJTAnranFTWg6Z95GNA8N.user3 --pass x"
             },
             {
                 "videoChip": "NVIDIA",
-                "minerCmd": "--algo 144_5 --pers BgoldPoW --server btg.2miners.com --port 4040 --user AU5qujJiTJxxRzJTAnranFTWg6Z95GNA8N.pip --pass x"
+                "minerCmd": "--algo 144_5 --pers BgoldPoW --server btg.2miners.com --port 4040 --user AU5qujJiTJxxRzJTAnranFTWg6Z95GNA8N.user3 --pass x"
             }
         ]
       }
     ]
   }
-  
